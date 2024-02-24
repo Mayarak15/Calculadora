@@ -1,0 +1,103 @@
+body{
+  background-color: rgb(0, 0, 17);
+  margin: 0;
+}
+#cansei{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#letreiroBemVindo{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Digital Numbers', sans-serif;
+  font-size: 15pt;
+}
+#visor{
+  height: 40px;
+  border-radius: 11px;
+  border: 1px solid palevioletred;
+  outline: none;
+  text-align: end;
+  background-color: rgb(172, 22, 72);
+  color: pink;
+  font-size: 8pt;
+  font-family: 'Digital Numbers', sans-serif;
+}
+#corpo{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(180, 180, 180);
+  border-radius: 16px;
+  padding: 10px 5px;
+  box-shadow: 0px 0px 5px pink;
+}
+button{
+  color: white;
+
+}
+
+button:hover{
+  cursor: pointer; 
+  background-color: aliceblue; 
+}
+#btn_num{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  justify-items: center;
+}
+#btn_num button{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: palevioletred;
+}
+#btn_todos{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+}
+#btn_sinais{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  
+}
+#btn_sinais button{
+  border: none;
+  width: 39px;
+  height: 39px;
+  border-radius: 12px;
+  background-color: rgb(180, 75, 110);
+}
+#simbolo_acima{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+#simbolo_acima button{
+  border: none;
+  width: 39px;
+  height: 39px;
+  border-radius: 12px;
+  background-color: rgb(180, 75, 110)
+}
+#org{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}

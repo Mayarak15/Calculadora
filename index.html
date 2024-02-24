@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+   
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div id="cansei">
+
+      <p id="letreiroBemVindo">Bem vindo(a) a minha calculadora :)</p>
+  
+    <div id="corpo">
+
+      <div id="div_visor">
+    <input type="text" id="visor" autofocus> 
+  </div>
+  
+<div id="btn_todos">
+
+
+<div id="simbolo_acima">
+  
+<button onclick="dividir()">÷</button>
+<button onclick="porcentagem()">%</button>
+<button onclick="raiz()">√</button>
+<button onclick="apagar()" id="c">c</button>
+
+</div>
+<div id="org">
+<div id="btn_num">
+
+<button onclick="um()">1</button>
+<button onclick="dois()">2</button>
+<button onclick="tres()">3</button>
+<button onclick="quatro()">4</button>
+<button onclick="cinco()">5</button>
+<button onclick="seis()">6</button>
+<button onclick="sete()">7</button>
+<button onclick="oito()">8</button>
+<button onclick="nove()">9</button>
+<button onclick="zero()">0</button>
+<button onclick="ponto()">.</button>
+</div>
+
+<div id="btn_sinais">
+  <button onclick="vezes()">x</button>
+<button onclick="mais()">+</button>
+<button onclick="menos()">-</button>
+
+<button onclick="resultado()">=</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+    <script src="script.js"></script>
+  </body>
+</html>
